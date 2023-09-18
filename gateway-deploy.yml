@@ -9,8 +9,8 @@ spec:
     replicas: 1
     selector:
         matchLabels:
-        app: gateway
-        type: microservice
+            app: gateway
+            type: microservice
     template:
         metadata:
             name: gateway-pod
